@@ -1,4 +1,4 @@
-SELECT DISTINCT *
+SELECT *
 FROM dealerships;
 
 SELECT vehicles.VIN, make, color, `year`, price, SOLD, dealership_id
